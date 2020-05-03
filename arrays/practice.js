@@ -16,7 +16,7 @@
 
 let me = {
   name: "Corey",
-  age: 37
+  age: 37,
 };
 
 alert(me.name);
@@ -34,7 +34,7 @@ let favoriteThings = {
   person: "Weird Al",
   book: "Lost to the West",
   movie: "Shawshank Redemption",
-  holiday: "Thanksgiving"
+  holiday: "Thanksgiving",
 };
 
 /*
@@ -65,7 +65,7 @@ favoriteThings.book = "Harry Potter";
 
 var backPack = {};
 
-var item = 'firstPocket';
+var item = "firstPocket";
 
 backPack[item] = "chapstick";
 backPack.color = "black";
@@ -88,12 +88,12 @@ console.log(backPack);
 
 // Do not edit the code below.
 var user2 = {
-  name: 'Bryan',
+  name: "Bryan",
   age: 24,
-  pwHash: 'U+Ldlngx2BYQk',
-  email: 'BryanSmith33@gmail.com',
-  birthday: '05/02/1990',
-  username: 'bryansmith33'
+  pwHash: "U+Ldlngx2BYQk",
+  email: "BryanSmith33@gmail.com",
+  birthday: "05/02/1990",
+  username: "bryansmith33",
 };
 // Do not edit the code above.
 
@@ -105,7 +105,6 @@ var user2 = {
 
 user2.name = "Bryan G. Smith";
 user2.email = "bryan.smith@devmounta.in";
-
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////

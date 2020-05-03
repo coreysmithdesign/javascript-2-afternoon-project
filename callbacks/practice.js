@@ -155,7 +155,10 @@ each(names, function (item, indice) {
   When the correct user object is found, invoke the callback with the user object as an argument.
 */
 
-function getUserByID(arr, id, cb) {}
+function getUserById(users, id, cb) {
+  let found = users.find((user) => user.id === id);
+  cb(found);
+}
 
 // Do not edit the code below.
 var users = [
